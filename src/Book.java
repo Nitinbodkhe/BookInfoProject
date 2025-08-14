@@ -5,6 +5,7 @@ public class Book {
         String title = "Hidden Hindu";
         String authorName = "Akshat Gupta";
         int publicationYear = 2024;
+        int NoOfParts = 3;
 
         // Printing the details
         System.out.println("** Here is the book details:");
@@ -12,5 +13,9 @@ public class Book {
         System.out.println("Book Name : " + title);
         System.out.println("Author Name : " + authorName);
         System.out.println("Publication Year : " + publicationYear);
+        System.out.println("Number of parts of this book : " + NoOfParts);
+        // Making some changes(Adding some other information also;
+
+
     }
 }
